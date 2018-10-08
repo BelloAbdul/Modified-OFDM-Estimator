@@ -1,0 +1,40 @@
+Start testing: Jun 06 00:08 EDT
+----------------------------------------------------------
+1/2 Testing: test_ofdm_param_estim
+1/2 Test: test_ofdm_param_estim
+Command: "/bin/sh" "/home/cssdr/gr-ofdm_param_estim/build/lib/test_ofdm_param_estim_test.sh"
+Directory: /home/cssdr/gr-ofdm_param_estim/build/lib
+"test_ofdm_param_estim" start time: Jun 06 00:08 EDT
+Output:
+----------------------------------------------------------
+.
+
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_ofdm_param_estim" end time: Jun 06 00:08 EDT
+"test_ofdm_param_estim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_ofdm_param_estimation_c
+2/2 Test: qa_ofdm_param_estimation_c
+Command: "/bin/sh" "/home/cssdr/gr-ofdm_param_estim/build/python/qa_ofdm_param_estimation_c_test.sh"
+Directory: /home/cssdr/gr-ofdm_param_estim/build/python
+"qa_ofdm_param_estimation_c" start time: Jun 06 00:08 EDT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.365s
+
+OK
+<end of output>
+Test time =   4.62 sec
+----------------------------------------------------------
+Test Passed.
+"qa_ofdm_param_estimation_c" end time: Jun 06 00:08 EDT
+"qa_ofdm_param_estimation_c" time elapsed: 00:00:04
+----------------------------------------------------------
+
+End testing: Jun 06 00:08 EDT

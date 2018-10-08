@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c" kind="class"><name>gr::ofdm_param_estim::ofdm_param_estimation_c</name>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a20cb82c93ce613084a2d32fcaf376710" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a17b2fb84cac68ca90105d9ae468200bb" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a2013991bf4bec9f817425b4ec642750f" kind="function"><name>set_samp_rate</name></member>
+  </compound>
+  <compound refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl" kind="class"><name>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</name>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1aea73447afcac4c151548c165aca79512" kind="variable"><name>d_samp_rate</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a959e9bdb04c365b7179719414d3c2df4" kind="variable"><name>d_signal</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a695dcc4e235352d6413d706e6a98a8f5" kind="variable"><name>d_typ_len</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a14128f155bc0556e7670a35e4d35ea44" kind="variable"><name>d_typ_cp</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1af0240244b1591cb25a52a968ee83c856" kind="variable"><name>d_Rxx</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a429453c7d84500daaa328740fe9b621d" kind="variable"><name>d_fft</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a70bcb825ad7fccea3bd1b0f785cdf4d1" kind="variable"><name>d_tmpbuflen</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac9f03e38416e58b561ae1a2c7f5ce5ea" kind="variable"><name>d_min_items</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ad0982ea0835f89504df102e0a8d965a9" kind="function"><name>ofdm_param_estimation_c_impl</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a9b7c46add535fb25cfdd6b1c8d5b22b6" kind="function"><name>~ofdm_param_estimation_c_impl</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac1db506841350c262b3626720e114703" kind="function"><name>autocorr</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6da60644ce059c8802a2abba3da34ff6" kind="function"><name>tv_autocorr</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a2f23023b3c77888741e3783440782b61" kind="function"><name>round_to_list</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac1eff7d21f9d538d527f04fbf0ddbc1a" kind="function"><name>resize_fft</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6a45acbada6490b8ac33b2f3c0921517" kind="function"><name>set_samp_rate</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a61604a97b32d38bfd0bc6f934d292e63" kind="function"><name>pack_message</name></member>
+    <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ad1f76b3cd0e1ea4b9950513fa5a8faf0" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1ofdm__param__estim" kind="namespace"><name>gr::ofdm_param_estim</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ac67bc9e1c17734fd554140021b48e928" kind="define"><name>OFDM_PARAM_ESTIM_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="ofdm__param__estimation__c_8h" kind="file"><name>ofdm_param_estimation_c.h</name>
+  </compound>
+  <compound refid="ofdm__param__estimation__c__impl_8h" kind="file"><name>ofdm_param_estimation_c_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_d2307f5781d1ced7da9ec3f8e8ad5f7a" kind="dir"><name>ofdm_param_estim</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

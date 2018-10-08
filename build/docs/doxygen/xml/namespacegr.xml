@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr" kind="namespace" language="C++">
+    <compoundname>gr</compoundname>
+    <innernamespace refid="namespacegr_1_1ofdm__param__estim">gr::ofdm_param_estim</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

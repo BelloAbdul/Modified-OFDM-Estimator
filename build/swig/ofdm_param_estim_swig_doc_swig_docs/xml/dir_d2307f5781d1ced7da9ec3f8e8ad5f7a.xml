@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d2307f5781d1ced7da9ec3f8e8ad5f7a" kind="dir">
+    <compoundname>ofdm_param_estim</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="ofdm__param__estimation__c_8h">ofdm_param_estimation_c.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/"/>
+  </compounddef>
+</doxygen>

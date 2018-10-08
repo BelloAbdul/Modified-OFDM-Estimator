@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::ofdm_param_estim::ofdm_param_estimation_c</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl" prot="public" virt="non-virtual">gr::ofdm_param_estim::ofdm_param_estimation_c_impl</derivedcompoundref>
+    <includes refid="ofdm__param__estimation__c_8h" local="no">ofdm_param_estimation_c.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a20cb82c93ce613084a2d32fcaf376710" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c" kindref="compound">ofdm_param_estimation_c</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;ofdm_param_estimation_c&gt; gr::ofdm_param_estim::ofdm_param_estimation_c::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" line="39" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a17b2fb84cac68ca90105d9ae468200bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a20cb82c93ce613084a2d32fcaf376710" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_param_estim::ofdm_param_estimation_c::make</definition>
+        <argsstring>(double samp_rate, int signal, int min_items, const std::vector&lt; int &gt; &amp;typ_len, const std::vector&lt; int &gt; &amp;typ_cp)</argsstring>
+        <name>make</name>
+        <param>
+          <type>double</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>signal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min_items</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>typ_len</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>typ_cp</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c" kindref="compound">ofdm_param_estim::ofdm_param_estimation_c</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c" kindref="compound">ofdm_param_estim::ofdm_param_estimation_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a17b2fb84cac68ca90105d9ae468200bb" kindref="member">ofdm_param_estim::ofdm_param_estimation_c::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a2013991bf4bec9f817425b4ec642750f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ofdm_param_estim::ofdm_param_estimation_c::set_samp_rate</definition>
+        <argsstring>(double d_samp_rate)=0</argsstring>
+        <name>set_samp_rate</name>
+        <reimplementedby refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6a45acbada6490b8ac33b2f3c0921517">set_samp_rate</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>d_samp_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="3">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" line="37" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/include/ofdm_param_estim/ofdm_param_estimation_c.h" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a17b2fb84cac68ca90105d9ae468200bb" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a2013991bf4bec9f817425b4ec642750f" prot="public" virt="pure-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c</scope><name>set_samp_rate</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a20cb82c93ce613084a2d32fcaf376710" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

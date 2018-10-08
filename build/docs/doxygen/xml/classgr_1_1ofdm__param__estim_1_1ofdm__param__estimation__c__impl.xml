@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c" prot="public" virt="non-virtual">gr::ofdm_param_estim::ofdm_param_estimation_c</basecompoundref>
+    <includes refid="ofdm__param__estimation__c__impl_8h" local="no">ofdm_param_estimation_c_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1aea73447afcac4c151548c165aca79512" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="33" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a959e9bdb04c365b7179719414d3c2df4" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_signal</definition>
+        <argsstring></argsstring>
+        <name>d_signal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="34" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a695dcc4e235352d6413d706e6a98a8f5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_typ_len</definition>
+        <argsstring></argsstring>
+        <name>d_typ_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="35" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a14128f155bc0556e7670a35e4d35ea44" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_typ_cp</definition>
+        <argsstring></argsstring>
+        <name>d_typ_cp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="35" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1af0240244b1591cb25a52a968ee83c856" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_Rxx</definition>
+        <argsstring></argsstring>
+        <name>d_Rxx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="36" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a429453c7d84500daaa328740fe9b621d" prot="private" static="no" mutable="no">
+        <type>fft::fft_complex *</type>
+        <definition>fft::fft_complex* gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_fft</definition>
+        <argsstring></argsstring>
+        <name>d_fft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="37" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a70bcb825ad7fccea3bd1b0f785cdf4d1" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_tmpbuflen</definition>
+        <argsstring></argsstring>
+        <name>d_tmpbuflen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="38" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac9f03e38416e58b561ae1a2c7f5ce5ea" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_param_estim::ofdm_param_estimation_c_impl::d_min_items</definition>
+        <argsstring></argsstring>
+        <name>d_min_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="39" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ad0982ea0835f89504df102e0a8d965a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_param_estim::ofdm_param_estimation_c_impl::ofdm_param_estimation_c_impl</definition>
+        <argsstring>(double samp_rate, int signal, int min_items, const std::vector&lt; int &gt; &amp;typ_len, const std::vector&lt; int &gt; &amp;typ_cp)</argsstring>
+        <name>ofdm_param_estimation_c_impl</name>
+        <param>
+          <type>double</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>signal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min_items</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>typ_len</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>typ_cp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a9b7c46add535fb25cfdd6b1c8d5b22b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_param_estim::ofdm_param_estimation_c_impl::~ofdm_param_estimation_c_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_param_estimation_c_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac1db506841350c262b3626720e114703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::ofdm_param_estim::ofdm_param_estimation_c_impl::autocorr</definition>
+        <argsstring>(const gr_complex *in, int len)</argsstring>
+        <name>autocorr</name>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6da60644ce059c8802a2abba3da34ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::ofdm_param_estim::ofdm_param_estimation_c_impl::tv_autocorr</definition>
+        <argsstring>(const gr_complex *in, int len, int shift)</argsstring>
+        <name>tv_autocorr</name>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a2f23023b3c77888741e3783440782b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ofdm_param_estim::ofdm_param_estimation_c_impl::round_to_list</definition>
+        <argsstring>(int val, std::vector&lt; int &gt; *list)</argsstring>
+        <name>round_to_list</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; *</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac1eff7d21f9d538d527f04fbf0ddbc1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ofdm_param_estim::ofdm_param_estimation_c_impl::resize_fft</definition>
+        <argsstring>(int size)</argsstring>
+        <name>resize_fft</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6a45acbada6490b8ac33b2f3c0921517" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ofdm_param_estim::ofdm_param_estimation_c_impl::set_samp_rate</definition>
+        <argsstring>(double d_samp_rate)</argsstring>
+        <name>set_samp_rate</name>
+        <reimplements refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a2013991bf4bec9f817425b4ec642750f">set_samp_rate</reimplements>
+        <param>
+          <type>double</type>
+          <declname>d_samp_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a61604a97b32d38bfd0bc6f934d292e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ofdm_param_estim::ofdm_param_estimation_c_impl::pack_message</definition>
+        <argsstring>(float subc, float time, int fft, int cp)</argsstring>
+        <name>pack_message</name>
+        <param>
+          <type>float</type>
+          <declname>subc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fft</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ad1f76b3cd0e1ea4b9950513fa5a8faf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ofdm_param_estim::ofdm_param_estimation_c_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="5">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::ofdm_param_estim::ofdm_param_estimation_c</label>
+        <link refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" line="31" column="1" bodyfile="/home/cssdr/gr-ofdm_param_estim/lib/ofdm_param_estimation_c_impl.h" bodystart="30" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac1db506841350c262b3626720e114703" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>autocorr</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a429453c7d84500daaa328740fe9b621d" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_fft</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac9f03e38416e58b561ae1a2c7f5ce5ea" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_min_items</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1af0240244b1591cb25a52a968ee83c856" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_Rxx</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1aea73447afcac4c151548c165aca79512" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a959e9bdb04c365b7179719414d3c2df4" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_signal</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a70bcb825ad7fccea3bd1b0f785cdf4d1" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_tmpbuflen</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a14128f155bc0556e7670a35e4d35ea44" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_typ_cp</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a695dcc4e235352d6413d706e6a98a8f5" prot="private" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>d_typ_len</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a17b2fb84cac68ca90105d9ae468200bb" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ad0982ea0835f89504df102e0a8d965a9" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>ofdm_param_estimation_c_impl</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a61604a97b32d38bfd0bc6f934d292e63" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>pack_message</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ac1eff7d21f9d538d527f04fbf0ddbc1a" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>resize_fft</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a2f23023b3c77888741e3783440782b61" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>round_to_list</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6a45acbada6490b8ac33b2f3c0921517" prot="public" virt="virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>set_samp_rate</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c_1a20cb82c93ce613084a2d32fcaf376710" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a6da60644ce059c8802a2abba3da34ff6" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>tv_autocorr</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1ad1f76b3cd0e1ea4b9950513fa5a8faf0" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ofdm__param__estim_1_1ofdm__param__estimation__c__impl_1a9b7c46add535fb25cfdd6b1c8d5b22b6" prot="public" virt="non-virtual"><scope>gr::ofdm_param_estim::ofdm_param_estimation_c_impl</scope><name>~ofdm_param_estimation_c_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

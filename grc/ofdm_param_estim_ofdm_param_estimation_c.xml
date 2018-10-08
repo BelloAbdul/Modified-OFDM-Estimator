@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<block>
+  <name>ofdm_param_estimator</name>
+  <key>ofdm_param_estim_ofdm_param_estimation_c</key>
+  <category>[ofdm_param_estim]</category>
+  <import>import ofdm_param_estim</import>
+  <make>ofdm_param_estim.ofdm_param_estimation_c($samp_rate, $signal, $min_items, $fft, $cp)</make>
+  <callback>set_samp_rate($samp_rate)</callback>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Samp rate</name>
+    <key>samp_rate</key>
+    <type>real</type>
+  </param>
+  <param>
+    <name>Signal No</name>
+    <key>signal</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Min input items</name>
+    <key>min_items</key>
+    <value>7000</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>FFT lengths</name>
+    <key>fft</key>
+    <value>[16, 32, 64, 128, 256, 512, 1024]</value>
+    <type>int_vector</type>
+  </param>
+  <param>
+    <name>CP lengths</name>
+    <key>cp</key>
+    <value>[4, 8, 16, 32]</value>
+    <type>int_vector</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>ofdm_out</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>
